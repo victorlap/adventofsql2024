@@ -1,0 +1,7 @@
+services:
+  db:
+    image: postgres:9.4
+    environment:
+      POSTGRES_PASSWORD: advent
+    ports:
+      - "5432:5432"
